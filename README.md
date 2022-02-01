@@ -76,3 +76,8 @@ mapbox/dark-v10
 mapbox/satellite-v9
 mapbox/satellite-streets-v11
 ```
+
+Setup push to branch with the command below and later work as usual in this branch
+```
+git push --set-upstream origin Simple_Leaflet_Map
+```
