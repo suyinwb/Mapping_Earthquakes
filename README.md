@@ -63,4 +63,16 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 ## Summary
 
 
+
 ## Appendix
+
+Changing the map's style
+
+```
+mapbox/streets-v11
+mapbox/outdoors-v11
+mapbox/light-v10
+mapbox/dark-v10
+mapbox/satellite-v9
+mapbox/satellite-streets-v11
+```
