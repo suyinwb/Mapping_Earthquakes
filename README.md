@@ -68,7 +68,7 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 Changing the map's style
 
-```
+``` js
 mapbox/streets-v11
 mapbox/outdoors-v11
 mapbox/light-v10
@@ -76,6 +76,21 @@ mapbox/dark-v10
 mapbox/satellite-v9
 mapbox/satellite-streets-v11
 ```
+----
+
+How to create new branch in terminal
+
+1. Confirm you're in main branch with the latest files with the commands below:
+```
+git branch
+git checkout main
+git pull
+```
+2. Create new branch with the files above
+```
+git checkout -b [name_of_your_new_branch]
+```
+----
 
 Setup push to branch with the command below and later work as usual in this branch
 ```
