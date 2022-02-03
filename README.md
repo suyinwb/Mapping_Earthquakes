@@ -12,11 +12,9 @@ Mapbox provides custom maps for websites and applications such as Strava, Facebo
 
 ## Background
 
-
 ## Overview of Project
 
 Basil and Sadhana like how you created your earthquake map with two different maps and the earthquake overlay. Now, Basil and Sadhana would like to see the earthquake data in relation to the tectonic plates’ location on the earth, and they would like to see all the earthquakes with a magnitude greater than 4.5 on the map, and they would like to see the data on a third map.
-
 
 ### Purpose
 
@@ -29,43 +27,51 @@ Basil and Sadhana like how you created your earthquake map with two different ma
 ## Methodology: Analytics Paradigm
 
 #### 1. Decomposing the Ask
-
+Create a map with GeoJSON earthquake data from the USGS website. The required datas are stated in [Purpose](#purpose)
 
 #### 2. Identify the Datasource
-
+GeoJSON files from:
+* Past 7 days - All Earthquakes (https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson)
+* Past 7 days - M4.5+ Earthquakes (https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson)
+* Tectonic Plates (https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json)
 
 ### 3. Define Strategy & Metrics
 **Resource:** Javascript, CSS, HTML, Data-Driven Documents (D3) library, Leaflets.js, API, GeoJSON,
 
 #### 4. Data Retrieval Plan
+d3.json call
 
 #### 5. Assemble & Clean the Data
+Not required
 
 #### 6. Analyse for Trends
-
+Not required
 
 #### 7. Acknowledging Limitations
-
+This can be expanded to also study trends but currently it's only used as visualisation.
 
 #### 8. Making the Call:
 The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ## Analysis
 
+The final code checkin is available in this directory: https://github.com/suyinwb/Mapping_Earthquakes/tree/main/%20Earthquakes_Challenge
 
->Bar & Gauge Charts
+>Deliverable 1: Tectonic Plate
 
-![Bar & Gauge Charts](resources/bar_gauge_charts.png)
+![Tectonic Plate](resources/tectonic.png)
 
 
->Bubble Chart
+>Deliverable 2: Major Earthquake
 
-![Bubble Chart](resources/bubble_chart.png)
+![Major Earthquake](resources/majorEQ.png)
 
+>Deliverable 3: Dark Mode
+
+![Dark Mode](resources/dark.png)
 
 ## Summary
-
-
+Making too much changes and branches can cause conflict when merging in github. So it's best to sequentially merge the branches to be able to resolve conflicts accurately without overwriting major code changes.
 
 ## Appendix
 
