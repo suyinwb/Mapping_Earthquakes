@@ -223,6 +223,7 @@ legend.onAdd = function() {
   legend.addTo(map);
 
 //################################# DELIVERABLES 1 #################################
+
 	// 3. Use d3.json to make a call to get our Tectonic Plate geoJSON data.
   d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json").then(function(data) {
 
