@@ -30,11 +30,13 @@ let baseMaps = {
 
 // 1. Add a 2nd layer group for the tectonic plate data.
 let allEarthquakes = new L.LayerGroup();
+let tectonicPlates = new L.LayerGroup();
 
 
 // 2. Add a reference to the tectonic plates group to the overlays object.
 let overlays = {
-  "Earthquakes": allEarthquakes
+  "Earthquakes": allEarthquakes,
+  "Tectonic Plates": tectonicPlates
 };
 
 // Then we add a control to the map that will allow the user to change which
@@ -146,7 +148,7 @@ legend.onAdd = function() {
 
 		// Create a geoJSON layer with the retrieved data
     L.geoJson(data, {
-			
+
       // We set the style for each circleMarker using our styleInfo function.
       style: styleInfo,
       onEachFeature: function(feature, layer) {
