@@ -1,2 +1,5 @@
 #Adding config
 config.js
+
+#Mac changes files
+.DS_Store
