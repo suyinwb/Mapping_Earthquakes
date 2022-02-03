@@ -49,13 +49,19 @@ let torontoHoods = "https://raw.githubusercontent.com/suyinwb/Mapping_Earthquake
 
 // Create a style for the lines.
 let myStyle = {
-    color: "#ffffa1",
-    weight: 2
+    fillColor: "yellow",
+    color: "blue",
+    weight: 1
 }
 
 // Grabbing our GeoJSON data.
 d3.json(torontoHoods).then(function(data) {
     console.log(data);
     // Creating a GeoJSON layer with the retrieved data.
-    L.geoJSON(data).addTo(map);
+    L.geoJSON(data, {
+      style: myStyle,
+      onEachFeature: function(feature, layer) {
+        layer.bindPopup("<h3> Neighbourhood: " + feature.properties.AREA_NAME + "</h3>");
+      }
+  }).addTo(map);
 });
