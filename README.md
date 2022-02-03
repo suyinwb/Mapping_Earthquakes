@@ -92,3 +92,7 @@ Setup push to branch with the command below and later work as usual in this bran
 ```
 git push --set-upstream origin Simple_Leaflet_Map
 ```
+
+---
+Git Learning Lab: https://lab.github.com/
+Git Branching & Merging: https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
