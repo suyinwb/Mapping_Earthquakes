@@ -75,6 +75,8 @@ Making too much changes and branches can cause conflict when merging in github. 
 
 ## Appendix
 
+Leaflet Quickstart Guide: https://leafletjs.com/examples/quick-start/
+
 Changing the map's style
 
 ```
