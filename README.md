@@ -10,16 +10,19 @@ Before you add your folders and files to the Mapping_Earthquakes folder, Basil w
 
 Mapbox provides custom maps for websites and applications such as Strava, Facebook, the Financial Times, The Weather Channel, Snapchat, and Instacart. Since October 2019, Mapbox has been generating up to 14 billion individual sensor readings daily across 100,000 map updates on connected devices.
 
-
-
 ## Background
 
 
 ## Overview of Project
 
+Basil and Sadhana like how you created your earthquake map with two different maps and the earthquake overlay. Now, Basil and Sadhana would like to see the earthquake data in relation to the tectonic plates’ location on the earth, and they would like to see all the earthquakes with a magnitude greater than 4.5 on the map, and they would like to see the data on a third map.
+
 
 ### Purpose
 
+- Deliverable 1: Add Tectonic Plate Data
+- Deliverable 2: Add Major Earthquake Data
+- Deliverable 3: Add an Additional Map
 
 ## Analysis And Challenges
 
