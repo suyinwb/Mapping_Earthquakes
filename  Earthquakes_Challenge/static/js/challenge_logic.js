@@ -140,8 +140,21 @@ legend.onAdd = function() {
   legend.addTo(map);
 
 
-  // 3. Use d3.json to make a call to get our Tectonic Plate geoJSON data.
-  d3.json().then(() {
-    
+	//################################# DELIVERABLES 1 #################################
+	// 3. Use d3.json to make a call to get our Tectonic Plate geoJSON data.
+  d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json").then(function(data) {
+
+		// Create a geoJSON layer with the retrieved data
+    L.geoJson(data, {
+			
+      // We set the style for each circleMarker using our styleInfo function.
+      style: styleInfo,
+      onEachFeature: function(feature, layer) {
+        console.log(feature);
+      }
+    }).addTo(tectonicPlates);
   });
+
+  // Then we add the tectonicPlates layer to our map.
+  tectonicPlates.addTo(map);
 });
