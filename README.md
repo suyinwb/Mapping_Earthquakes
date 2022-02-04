@@ -36,7 +36,7 @@ GeoJSON files from:
 * Tectonic Plates (https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json)
 
 ### 3. Define Strategy & Metrics
-**Resource:** Javascript, CSS, HTML, Data-Driven Documents (D3) library, Leaflets.js, API, GeoJSON,
+**Resource:** Javascript, CSS, HTML, Data-Driven Documents (D3) library, Leaflets.js, API, GeoJSON, Mapbox
 
 #### 4. Data Retrieval Plan
 d3.json call
