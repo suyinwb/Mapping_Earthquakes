@@ -27,7 +27,7 @@ Basil and Sadhana like how you created your earthquake map with two different ma
 ## Methodology: Analytics Paradigm
 
 #### 1. Decomposing the Ask
-Create a map with GeoJSON earthquake data from the USGS website. The required datas are stated in [Purpose](#purpose)
+Create a map with GeoJSON earthquake data from the USGS website. The requirements are stated in [Purpose](#purpose)
 
 #### 2. Identify the Datasource
 GeoJSON files from:
